@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+button {
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.tName {
+  width: 150px;
+}
+
+.tDaftar {
+  vertical-align: bottom;
+}
