@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", "Syne", sans-serif;
+  background-color: #f1f1f1;
 }
 
 .container {
@@ -13,10 +14,13 @@ body {
   width: 550px;
 }
 
-.formBuah {
+.formBuah,
+.tableBuah,
+.timer-wraper {
   border: 1px solid black;
   border-radius: 10px;
   padding: 20px;
+  background-color: white;
 }
 
 h1 {
@@ -36,7 +40,8 @@ button {
   vertical-align: bottom;
 }
 
-TableBuah {
+.tableBuah,
+.timer-wraper {
   margin-top: 20px;
 }
 
@@ -45,11 +50,15 @@ TableBuah {
   border: 1px solid black;
 }
 
-thead td {
+.tableBuah thead td {
   background-color: #aaa;
   text-align: center;
 }
 
-tbody td {
+.tableBuah tbody td {
   background-color: #ff7f50;
+}
+
+.timer-wraper {
+  font-size: 1.3em;
 }

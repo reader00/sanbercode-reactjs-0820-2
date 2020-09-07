@@ -15,25 +15,29 @@ class TableBuah extends React.Component {
         <h1> Tabel Harga Buah</h1>
         <table className="tableBuah-tb">
           <thead>
-            <td>
-              <b>Nama</b>
-            </td>
-            <td>
-              <b>Harga</b>
-            </td>
-            <td>
-              <b>Berat</b>
-            </td>
+            <tr>
+              <td>
+                <b>Nama</b>
+              </td>
+              <td>
+                <b>Harga</b>
+              </td>
+              <td>
+                <b>Berat</b>
+              </td>
+            </tr>
           </thead>
-          {dataHargaBuah.map((db) => {
-            return (
-              <tbody>
-                <td>{db.nama}</td>
-                <td>{db.harga}</td>
-                <td>{Number(db.berat) / 1000} kg</td>
-              </tbody>
-            );
-          })}
+          <tbody>
+            {dataHargaBuah.map((db) => {
+              return (
+                <tr>
+                  <td>{db.nama}</td>
+                  <td>{db.harga}</td>
+                  <td>{Number(db.berat) / 1000} kg</td>
+                </tr>
+              );
+            })}
+          </tbody>
         </table>
       </div>
     );
