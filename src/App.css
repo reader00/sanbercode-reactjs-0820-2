@@ -15,7 +15,7 @@ body {
 }
 
 .formBuah,
-.tableBuah,
+.wraper-table-buah,
 .timer-wraper {
   border: 1px solid black;
   border-radius: 10px;
@@ -40,8 +40,9 @@ button {
   vertical-align: bottom;
 }
 
-.tableBuah,
-.timer-wraper {
+.wraper-table-buah,
+.timer-wraper,
+.input-wraper {
   margin-top: 20px;
 }
 
@@ -61,4 +62,20 @@ button {
 
 .timer-wraper {
   font-size: 1.3em;
+}
+
+.input-wraper table {
+  width: 100%;
+}
+
+.input-wraper tr {
+  height: 1.7em;
+}
+
+.input-wraper input {
+  border: 0.3px solid #888;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px #ddd;
+  line-height: 1.4em;
+  color: #333;
 }
