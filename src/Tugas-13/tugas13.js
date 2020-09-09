@@ -66,30 +66,15 @@ const TableBaruBuah = () => {
   };
 
   const inputChangeNama = (event) => {
-    setInput({
-      id: input.id,
-      name: event.target.value,
-      price: input.price,
-      weight: input.weight,
-    });
+    setInput({ ...input, name: event.target.value });
   };
 
   const inputChangeHarga = (event) => {
-    setInput({
-      id: input.id,
-      name: input.name,
-      price: event.target.value,
-      weight: input.weight,
-    });
+    setInput({ ...input, price: event.target.value });
   };
 
   const inputChangeBerat = (event) => {
-    setInput({
-      id: input.id,
-      name: input.name,
-      price: input.price,
-      weight: event.target.value,
-    });
+    setInput({ ...input, weight: event.target.value });
   };
 
   const editData = (event) => {
