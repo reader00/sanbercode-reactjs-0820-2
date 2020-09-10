@@ -4,7 +4,8 @@ import "./App.css";
 // import TableBuah from "./Tugas-10/tugas10";
 // import Timer from "./Tugas-11/timer";
 // import TableBuahBaru from "./Tugas-12/tugas12";
-import TableBaruBuah from "./Tugas-13/tugas13";
+// import TableBaruBuah from "./Tugas-13/tugas13";
+import Buah from "./Tugas-14/Buah";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <TableBuah />
       <Timer /> */}
       {/* <TableBuahBaru /> */}
-      <TableBaruBuah />
+      {/* <TableBaruBuah /> */}
+      {/* <Buah /> */}
+      <Buah />
     </div>
   );
 }
