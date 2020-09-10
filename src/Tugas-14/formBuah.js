@@ -3,7 +3,7 @@ import { BuahContext } from "./context";
 import axios from "axios";
 
 const BuahForm = () => {
-  const [dataBuah, setDataBuah, input, setInput] = useContext(BuahContext);
+  const { dataBuah, setDataBuah, input, setInput } = useContext(BuahContext);
   // const [input] = useContext(BuahContext);
   // const [setInput] = useContext(BuahContext);
 

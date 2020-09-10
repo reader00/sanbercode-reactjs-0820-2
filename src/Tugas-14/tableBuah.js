@@ -3,7 +3,7 @@ import { BuahContext } from "./context";
 import axios from "axios";
 
 const BuahList = () => {
-  const [dataBuah, setDataBuah, , setInput] = useContext(BuahContext);
+  const { dataBuah, setDataBuah, setInput } = useContext(BuahContext);
 
   const editData = (event) => {
     var idBuah = parseInt(event.target.value);

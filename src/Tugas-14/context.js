@@ -25,7 +25,7 @@ export const BuahProvider = (props) => {
   }, [dataBuah]);
 
   return (
-    <BuahContext.Provider value={[dataBuah, setDataBuah, input, setInput]}>
+    <BuahContext.Provider value={{ dataBuah, setDataBuah, input, setInput }}>
       {props.children}
     </BuahContext.Provider>
   );
