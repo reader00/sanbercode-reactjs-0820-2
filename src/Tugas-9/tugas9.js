@@ -5,7 +5,7 @@ class FormBuah extends React.Component {
     return (
       <div className="formBuah">
         <h1>Form Pembelian Buah</h1>
-        <form action="">
+        <form action="" className="mid">
           <table>
             <thead>
               <tr className="tName">
